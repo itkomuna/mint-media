@@ -1,0 +1,53 @@
+@import 'vars';
+@import 'globals';
+
+// nav
+nav.bg-body-tertiary {
+    background: transparent !important;
+    padding: 0px !important;
+    .container {
+        background: rgba($white, .7);
+        padding: 10px 20px;
+        img {
+            width: 50%;
+        }
+        .nav-link {
+            color: $tertiary;
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-left: 30px;
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+}
+
+// mainHeader
+.mainHeader {
+    img {
+        height: 600px;
+        object-fit: cover;
+    }
+}
+
+
+// footer
+footer {
+    background: $secondary;
+    h3 {
+        background: $white;
+        color: $text;
+        padding: 10px 30px;
+        margin-bottom: 20px;
+    }
+    .socials {
+        a {
+            color: $white;
+            &:hover {
+                color: rgba(rgba($white, .7));
+            }
+        }
+    }
+}
