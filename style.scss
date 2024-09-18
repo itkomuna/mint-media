@@ -46,8 +46,32 @@ footer {
         a {
             color: $white;
             &:hover {
-                color: rgba(rgba($white, .7));
+                color: rgba($white, .7);
             }
+        }
+    }
+}
+
+// baner
+.baner {
+    background: $secondary;
+    margin-top: -100px;
+    h1 {
+        font-weight: 300;
+    }
+}
+
+// usluge
+.usluge {
+    h2 {
+        &::after {
+            display: block;
+            content: "";
+            background: $secondary;
+            height: 2px;
+            width: 100px;
+            text-align: center;
+            margin: 30px auto 60px auto;
         }
     }
 }

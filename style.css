@@ -1,8 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
   color: #555;
   font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "MuseoModerno", sans-serif;
+}
+
+.btn {
+  border-radius: 0;
+  border: none;
+}
+
+.btn-primary {
+  background: #3db89c;
+}
+.btn-primary:hover {
+  background: #555;
 }
 
 nav.bg-body-tertiary {
@@ -46,5 +62,23 @@ footer .socials a {
   color: white;
 }
 footer .socials a:hover {
-  color: rg;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.baner {
+  background: #3db89c;
+  margin-top: -100px;
+}
+.baner h1 {
+  font-weight: 300;
+}
+
+.usluge h2::after {
+  display: block;
+  content: "";
+  background: #3db89c;
+  height: 2px;
+  width: 100px;
+  text-align: center;
+  margin: 30px auto 60px auto;
 }/*# sourceMappingURL=style.css.map */
