@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'template_parts/header.php'; ?>
 
 <!-- main header -->
 <header class="mainHeader">
@@ -12,6 +12,6 @@
         mestu: facebook i google, reklame, kopirajt, SEO...</p>
 </section>
 
-<?php include 'usluge-part.php'; ?>
+<?php include 'template_parts/usluge-part.php'; ?>
 
-<?php include 'footer.php'; ?>
+<?php include 'template_parts/footer.php'; ?>

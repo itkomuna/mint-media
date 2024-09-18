@@ -37,7 +37,7 @@
             </article>
         </section>
         <aside class="col-md-4">
-            <?php include 'sidebar.php'; ?>
+            <?php include 'template_parts/sidebar.php'; ?>
         </aside>
     </div>
 </main>

@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'template_parts/header.php'; ?>
 
     <!-- heades -->
     <header class="blogHeader position-relative">
@@ -23,4 +23,4 @@
         <button class="btn btn-dark mt-4">Posaljite poruku</button>
     </form>
 
-<?php include 'footer.php'; ?>
+<?php include 'template_parts/footer.php'; ?>

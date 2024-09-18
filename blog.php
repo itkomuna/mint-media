@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'template_parts/header.php'; ?>
 
     <!-- heades -->
     <header class="blogHeader position-relative">
@@ -6,7 +6,7 @@
         <h1 class="position-absolute top-50 start-50 display-1 text-white py-3 px-5 translate-middle">Blog</h1>
     </header>
 
-    <?php include 'blog-part.php'; ?>
+    <?php include 'template_parts/blog-part.php'; ?>
 
 
-<?php include 'footer.php'; ?>
+<?php include 'template_parts/footer.php'; ?>
