@@ -18,7 +18,7 @@
         </div>
         <div class="mb-3"></div>
             <label class="text-white mb-2">Poruka</label>
-            <textarea class="form-control"></textarea>
+            <textarea class="form-control rounded-0"></textarea>
         </div>
         <button class="btn btn-dark mt-4">Posaljite poruku</button>
     </form>
