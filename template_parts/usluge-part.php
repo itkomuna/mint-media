@@ -1,36 +1,27 @@
+<?php 
+// echo ucitaj_usluge_text_file();
+//normalizacija_podataka(ucitaj_usluge_text_file());
+//izlistaj_sve_usluge();
+$sve_usluge = izlistaj_sve_usluge();
+?>
+
 <!-- usluge -->
 <section class="usluge container py-5">
     <h2 class="text-center display-3">Usluge</h2>
     <div class="row">
+
+    <?php foreach($sve_usluge as $usluga) : ?>
         <article class="col-md-4">
             <div class="card">
-                <img src="img/mint-socijalne-mreze.jpg" class="card-img-top" alt="...">
+                <img src="<?php echo $usluga['slika']; ?>" class="card-img-top" alt="<?php echo $usluga['naslov']; ?>">
                 <div class="card-body">
-                    <h5 class="card-title">Drustvene mreze</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title"><?php echo $usluga['naslov']; ?></h5>
+                    <p class="card-text"><?php echo $usluga['text']; ?></p>
                     <a href="#" class="btn btn-primary">Procit vise</a>
                 </div>
             </div>
         </article>
-        <article class="col-md-4">
-            <div class="card">
-                <img src="img/mint_seo.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">SEO</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Procit vise</a>
-                </div>
-            </div>
-        </article>
-        <article class="col-md-4">
-            <div class="card">
-                <img src="img/mint-google-oglasi.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Google oglasi</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Procit vise</a>
-                </div>
-            </div>
-        </article>
+    <?php endforeach; ?>    
+        
     </div>
 </section>

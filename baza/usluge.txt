@@ -1,0 +1,15 @@
+////////////
+ID: 3 
+Slika: img/mint-socijalne-mreze.jpg
+Naslov: Drustvene mreze
+Tekst: Some quick example text to build on the card title and make up the bulk of the card's content.
+////////////
+ID: 2
+Slika: img/mint_seo.jpg
+Naslov: Search engine optimisation
+Tekst: Some quick example text to build on the card title and make up the bulk of the card's content.
+////////////
+ID: 1
+Slika: img/mint-google-oglasi.jpg
+Naslov: Google oglasi
+Tekst: Some quick example text to build on the card title and make up the bulk of the card's content.
