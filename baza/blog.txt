@@ -1,0 +1,21 @@
+++++++++++++++
+ID: 3
+Slika: img/mint drustvene mreze.jpg
+Naslov: Drustvene mreze
+Datum: 18.09.2024.
+Admin: Admin
+Tekst: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat a earum numquam sequi voluptate culpa, facilis fugiat quod neque atque similique sunt veritatis. Mollitia totam illum repellat voluptas architecto enim suscipit, voluptatem eius ut excepturi neque, quia voluptatibus harum velit ullam atque officia quae similique beatae officiis ea expedita.
+++++++++++++++
+ID: 2
+Slika: img/mint_seo.jpg
+Naslov: Search engine optimizacija
+Datum: 18.09.2024.
+Admin: Admin
+Tekst: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat a earum numquam sequi voluptate culpa, facilis fugiat quod neque atque similique sunt veritatis. Mollitia totam illum repellat voluptas architecto enim suscipit, voluptatem eius ut excepturi neque, quia voluptatibus harum velit ullam atque officia quae similique beatae officiis ea expedita.
+++++++++++++++
+ID: 1
+Slika: img/mint-google-ads.jpg
+Naslov: Google oglasi
+Datum: 18.09.2024.
+Admin: Admin
+Tekst: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quaerat a earum numquam sequi voluptate culpa, facilis fugiat quod neque atque similique sunt veritatis. Mollitia totam illum repellat voluptas architecto enim suscipit, voluptatem eius ut excepturi neque, quia voluptatibus harum velit ullam atque officia quae similique beatae officiis ea expedita.
